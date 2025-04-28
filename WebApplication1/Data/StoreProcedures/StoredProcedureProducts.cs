@@ -7,15 +7,23 @@ namespace Validaciones.Data.StoreProcedures
 {
     public class StoredProcedureProducts : ISprProducts
     {
-        public DataModel ListProducts() 
+        private readonly DbConnection _dbConnection;
+
+        // Constructor: Inyectar DbConnection como dependencia
+        public StoredProcedureProducts(DbConnection dbConnection)
+        {
+            _dbConnection = dbConnection;
+        }
+
+        public DataModel ListProducts()
         {
             var oList = new List<Products>();
             var response = new DataModel();
 
             try
             {
-                var cn = new DbConnection();
-                using (var conexion = new SqlConnection(cn.getConnectionString()))
+                // Usar la cadena de conexión proporcionada por DbConnection
+                using (var conexion = new SqlConnection(_dbConnection.GetConnectionString()))
                 {
                     conexion.Open();
                     SqlCommand cmd = new SqlCommand("SP_ListAllProducts", conexion);
@@ -38,12 +46,15 @@ namespace Validaciones.Data.StoreProcedures
                         }
                     }
                 }
+
+                // Respuesta exitosa
                 response.Data = oList;
                 response.Message = "Productos listados exitosamente";
                 return response;
             }
             catch (Exception ex)
             {
+                // Respuesta en caso de error
                 response.Data = oList;
                 response.Message = $"Error: {ex.Message}";
                 return response;

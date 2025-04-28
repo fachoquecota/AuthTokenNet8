@@ -1,19 +1,21 @@
-﻿namespace Validaciones.Data
+﻿using Microsoft.Extensions.Configuration;
+
+namespace Validaciones.Data
 {
-    
     public class DbConnection
     {
-        private string _connectionString = string.Empty;
-        public DbConnection() 
-        {
-            var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
+        private readonly string _connectionString;
 
-            _connectionString = builder.GetSection("ConnectionStrings:CadenaSQL").Value;
+        // Constructor: Inyectar IConfiguration
+        public DbConnection(IConfiguration configuration)
+        {
+            // Accede directamente a la clave ConnectionStrings:CadenaSQL
+            _connectionString = configuration["ConnectionStrings:CadenaSQL"];
         }
 
-        public string getConnectionString()
+        public string GetConnectionString()
         {
-            return _connectionString; 
+            return _connectionString;
         }
     }
 }

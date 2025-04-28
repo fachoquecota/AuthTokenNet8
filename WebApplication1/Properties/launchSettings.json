@@ -5,7 +5,9 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ConnectionStrings__CadenaSQL": "Data Source=192.168.0.37; Initial Catalog=Validaciones; User ID=sa; Password=aA-7852396541;",
+        "JWT__Key": "CLAVE SUPER SUPER SUPER SUPER SUPER SUPER SUUUUUUPER SECRETA"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "http://localhost:5150"
@@ -15,7 +17,9 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ConnectionStrings__CadenaSQL": "Data Source=192.168.0.37; Initial Catalog=Validaciones; User ID=sa; Password=aA-7852396541;",
+        "JWT__Key": "CLAVE SUPER SUPER SUPER SUPER SUPER SUPER SUUUUUUPER SECRETA"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:7267;http://localhost:5150"
@@ -25,7 +29,9 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ConnectionStrings__CadenaSQL": "Data Source=192.168.0.37; Initial Catalog=Validaciones; User ID=sa; Password=aA-7852396541;",
+        "JWT__Key": "CLAVE SUPER SUPER SUPER SUPER SUPER SUPER SUUUUUUPER SECRETA"
       }
     },
     "Container (Dockerfile)": {
@@ -34,7 +40,9 @@
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
       "environmentVariables": {
         "ASPNETCORE_HTTPS_PORTS": "8081",
-        "ASPNETCORE_HTTP_PORTS": "8080"
+        "ASPNETCORE_HTTP_PORTS": "8080",
+        "ConnectionStrings__CadenaSQL": "Data Source=192.168.0.37; Initial Catalog=Validaciones; User ID=sa; Password=aA-7852396541;",
+        "JWT__Key": "CLAVE SUPER SUPER SUPER SUPER SUPER SUPER SUUUUUUPER SECRETA"
       },
       "publishAllPorts": true,
       "useSSL": true

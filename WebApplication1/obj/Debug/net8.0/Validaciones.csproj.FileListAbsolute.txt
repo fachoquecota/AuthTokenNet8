@@ -44,3 +44,6 @@ C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet8\TokenNet8\WebApplication
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet8\TokenNet8\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet8\TokenNet8\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet8\TokenNet8\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet8\TokenNet8\WebApplication1\obj\Debug\net8.0\Validaciones.sourcelink.json
+C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet8\TokenNet8\WebApplication1\bin\Debug\net8.0\DotNetEnv.dll
+C:\Users\user\Documents\3 .Net Core\TokenNet6\TokenNet8\TokenNet8\WebApplication1\bin\Debug\net8.0\Sprache.dll
