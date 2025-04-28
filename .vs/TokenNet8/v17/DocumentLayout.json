@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet8\\TokenNet8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15199058-377C-449F-9ABC-440DF1CBD8F2}|WebApplication1\\Validaciones.csproj|c:\\users\\user\\documents\\3 .net core\\tokennet6\\tokennet8\\tokennet8\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15199058-377C-449F-9ABC-440DF1CBD8F2}|WebApplication1\\Validaciones.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15199058-377C-449F-9ABC-440DF1CBD8F2}|WebApplication1\\Validaciones.csproj|c:\\users\\user\\documents\\3 .net core\\tokennet6\\tokennet8\\tokennet8\\webapplication1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{15199058-377C-449F-9ABC-440DF1CBD8F2}|WebApplication1\\Validaciones.csproj|solutionrelative:webapplication1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15199058-377C-449F-9ABC-440DF1CBD8F2}|WebApplication1\\Validaciones.csproj|c:\\users\\user\\documents\\3 .net core\\tokennet6\\tokennet8\\tokennet8\\webapplication1\\data\\storeprocedures\\storedprocedureusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15199058-377C-449F-9ABC-440DF1CBD8F2}|WebApplication1\\Validaciones.csproj|solutionrelative:webapplication1\\data\\storeprocedures\\storedprocedureusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15199058-377C-449F-9ABC-440DF1CBD8F2}|WebApplication1\\Validaciones.csproj|c:\\users\\user\\documents\\3 .net core\\tokennet6\\tokennet8\\tokennet8\\webapplication1\\data\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15199058-377C-449F-9ABC-440DF1CBD8F2}|WebApplication1\\Validaciones.csproj|solutionrelative:webapplication1\\data\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StoredProcedureUsers.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet8\\TokenNet8\\WebApplication1\\Data\\StoreProcedures\\StoredProcedureUsers.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\StoreProcedures\\StoredProcedureUsers.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet8\\TokenNet8\\WebApplication1\\Data\\StoreProcedures\\StoredProcedureUsers.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\StoreProcedures\\StoredProcedureUsers.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAWwBIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T09:33:24.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbConnection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet8\\TokenNet8\\WebApplication1\\Data\\DbConnection.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\DbConnection.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet8\\TokenNet8\\WebApplication1\\Data\\DbConnection.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\DbConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T09:33:19.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet8\\TokenNet8\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet8\\TokenNet8\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-27T09:26:30.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet8\\TokenNet8\\WebApplication1\\Dockerfile",
+              "RelativeDocumentMoniker": "WebApplication1\\Dockerfile",
+              "ToolTip": "C:\\Users\\user\\Documents\\3 .Net Core\\TokenNet6\\TokenNet8\\TokenNet8\\WebApplication1\\Dockerfile",
+              "RelativeToolTip": "WebApplication1\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-27T08:47:37.53Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
